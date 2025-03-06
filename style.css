@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #fddde6;
+    color: #88304e;
+    border-bottom: 2px solid #e4b6c4;
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.header__content {}
+
+.greeting {
+    display: flex;
+    margin-top: 30px;
+    column-gap: 150px;
+    align-items: center;
+}
+
+.greeting-text h2{
+    font-size: 30px;
+    color: #88304e;
+    font-family: "Playfair Display", serif;
+}
+
+.greeting-image {
+    max-width: 500px;
+}
+
+.greeting-text {
+    
+}
+
+.wishes {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+@media(max-width:900px){
+    .greeting{
+        flex-direction: column;
+    }
+}
+
